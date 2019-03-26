@@ -198,7 +198,7 @@ export default class Bidi
     //**********************************************************************************
     /**
      * Get the current state index of each token
-     * @param {text} text an input text
+     * @param {string} text an input text
      */
     getTextGlyphs(text)
     {
