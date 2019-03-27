@@ -2,8 +2,8 @@
  * Apply Arabic presentation forms to a range of tokens
  */
 
-import { ContextParams } from '../../tokenizer';
-import { isIsolatedArabicChar, isTashkeelArabicChar } from '../../char';
+import { ContextParams } from '../../tokenizer.js';
+import { isIsolatedArabicChar, isTashkeelArabicChar } from '../../char.js';
 /**
  * Check if a char can be connected to it's preceding char
  * @param {ContextParams} charContextParams context params of a char

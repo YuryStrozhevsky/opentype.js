@@ -2,7 +2,7 @@
  * Apply Arabic required ligatures feature to a range of tokens
  */
 
-import { ContextParams } from '../../tokenizer';
+import { ContextParams } from '../../tokenizer.js';
 
 /**
  * Apply Arabic required ligatures to a context range
